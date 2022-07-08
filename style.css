@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+}
+
+.static {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.Kay {
+    font-size: 2em;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.logo {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px white;
+    color: rgb(196, 56, 56);
+}
+
+.bubbles {
+    width: 50%;
+    max-width: 85px;
+    height: 2em;
+    border-radius: 22px;
+    border: none;
+    background-image: linear-gradient( 109.6deg,  rgb(243, 11, 11) 11.2%, rgb(235, 0, 0) 91.2% );
+    font-weight: bolder;
+    color: white;
+}
+
+
+.rendered {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
