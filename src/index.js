@@ -18,6 +18,8 @@ document.addEventListener('click', (e) => {
     if (target1 === "MENU"){
         let page = makeMenu();
         component(page);
+        
+
     } 
     if (target1 === "CONTACT"){
         let page = makeContact();
