@@ -3,7 +3,7 @@ export default function makeMenu() {
     const element = document.createElement('div');
     element.classList.add("rendered");
     element.innerHTML = `
-        <h1>Kravings</h1>
+        <h1>Our Savory Delights</h1>
         <div class="food">
           <img src="burger.jpg" />
           <div>
